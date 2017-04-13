@@ -1,0 +1,29 @@
+.wrapper {
+	width: 100%;
+	background-color: white;
+}
+.header {
+	width: 100%;
+	height: 50px;
+	background: white;
+	float: left;
+}
+#h3 { 
+	border: 4px solid black;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+
+	font-size: 40px;
+	text-align: center;
+	color: black;
+}
+.calculator {
+	width: 220px;
+	height: 100%;
+
+	background-color: black;
+	border-radius: 25px;
+	
+	padding: 10px;
+}
