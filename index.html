@@ -3,44 +3,42 @@
 <head>
 	<title>Calculator</title>
 	<meta charset="utf-8">
-	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src='index.js'></script>
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<!--<style type="text/css" src="index.css"></style>-->
 </head>
 <body>
 <div class="wrapper">
 	<div class="header">
-		<h3>音</h3>
-		<h2>Project</h3>
-		<h1>Javascript Calculator</h1>
+		<div class="logo"><h3 id="icon">音</h3></div>
+		<h1 id="ja">Javascript Calculator</h1>
 	</div>
 	<div class="calculator">
 		<input type="text" id="display" readonly>
 	<br>
-		<input type="button" class='button' value="C">
-		<input type="button" class='button' value="(">
-		<input type="button" class='button' value=")">
-		<input type="button" class='button' value="*">
+		<input type="button" class='buttonr' value="C" onclick='c("")'>
+		<input type="button" class='buttonr' value="(" onclick='math("(")'>
+		<input type="button" class='buttonr' value=")" onclick='math(")")'>
+		<input type="button" class='buttonb' value="x" onclick='math("*")'>
 	<br>
-		<input type="button" class='button' value="7">
-		<input type="button" class='button' value="8">
-		<input type="button" class='button' value="9">
-		<input type="button" class='button' value="/">
+		<input type="button" class='button' value="7" onclick='math("7")'>
+		<input type="button" class='button' value="8" onclick='math("8")'>
+		<input type="button" class='button' value="9" onclick='math("9")'>
+		<input type="button" class='buttonb' value="÷" onclick='math("/")'>
 	<br>
-		<input type="button" class='button' value="4">
-		<input type="button" class='button' value="5">
-		<input type="button" class='button' value="6">
-		<input type="button" class='button' value="-">
+		<input type="button" class='button' value="4" onclick='math("4")'>
+		<input type="button" class='button' value="5" onclick='math("5")'>
+		<input type="button" class='button' value="6" onclick='math("6")'>
+		<input type="button" class='buttonb' value="-" onclick='math("-")'>
 	<br>
-		<input type="button" class='button' value="1">
-		<input type="button" class='button' value="2">
-		<input type="button" class='button' value="3">
-		<input type="button" class='button' value="+">
+		<input type="button" class='button' value="1" onclick='math("1")'>
+		<input type="button" class='button' value="2" onclick='math("2")'>
+		<input type="button" class='button' value="3" onclick='math("3")'>
+		<input type="button" class='buttonb' value="+" onclick='math("+")'>
 	<br>
-		<input type="button" class='button' value="0">
-		<input type="button" class='button' value="=">
+		<input type="button" class='button' value="0" onclick='math("0")'>
+		<input type="button" class='button' value="." onclick='math(".")'>
+		<input type="button" class='buttone' value="=" onclick="e()">
 	</div>
 </div>
-
 </body>
 </html>

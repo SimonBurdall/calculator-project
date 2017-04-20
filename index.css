@@ -1,29 +1,108 @@
-.wrapper {
-	width: 100%;
+body{
+	background: #dbe4ea;
+}
+.wrapper{
+	width: 800px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: -8px;
+	border-radius: 25px;
 	background-color: white;
 }
-.header {
+.header{
 	width: 100%;
-	height: 50px;
-	background: white;
-	float: left;
+	height: 60px;
+	background-color: white;
+	border-bottom:grey 1px solid;
 }
-#h3 { 
-	border: 4px solid black;
+.logo{
+	background: linear-gradient(to right, orange, white);
+	position: absolute;
+	height: 60px;
+	width: 200px;
+}
+#icon { 
+	border: 3px solid white;
 	border-radius: 50%;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
+	margin-top: 7px;
+	margin-left: 7px;
 
-	font-size: 40px;
+	float: left;
+	position: relative;
+	
+	font-size: 30px;
 	text-align: center;
-	color: black;
+	color: white;
 }
-.calculator {
-	width: 220px;
-	height: 100%;
 
-	background-color: black;
+#ja {
+	float: left;
+	margin-left: 200px;
+	margin-top: 7px;
+}
+
+.calculator {
+	width: 180px;
+	height: 180px;
+	margin-top: 10px;
+	margin-left: 290px;
+
+	background-color: #696d7d;
+	border-bottom:black 4px solid;
 	border-radius: 25px;
 	
 	padding: 10px;
 }
+#display{
+	height: 20px;
+	width: 174px;
+	border: none;
+	border-bottom:black 2px solid;
+}
+.button{
+	width: 40px;
+	height: 30px;
+	cursor: pointer;
+	border: none;
+	border-bottom:black 2px solid;
+}
+.button:hover {
+    background-color: #fefae0;
+}
+.buttonb{
+	width: 40px;
+	height: 30px;
+	cursor: pointer;
+	border: none;
+	background-color: #a7cecb;
+	border-bottom:black 2px solid;
+}
+.buttonb:hover {
+    background-color: #8ba6a9;
+}
+.buttonr{
+	width: 40px;
+	height: 30px;
+	cursor: pointer;
+	border: none;
+	background-color: #dda15e;
+	border-bottom:black 2px solid;
+}
+.buttonr:hover {
+    background-color: #bc6c25;
+}
+.buttone{
+	width: 85px;
+	height: 30px;
+	cursor: pointer;
+	background-color: #d4e79e;
+	border: none;
+	border-bottom:black 2px solid;
+}
+.buttone:hover {
+    background-color: #b8c480;
+}
+
+
